@@ -4,6 +4,8 @@
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
     
     "baseUrl": ".",
     "esModuleInterop": true,
@@ -15,8 +17,6 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
     "jsx": "preserve",
@@ -46,8 +46,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "redirects.js",
-    "next.config.js",
+    "next.config.ts",
     "next-sitemap.config.cjs"
   ],
   "exclude": [

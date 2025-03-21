@@ -11,3 +11,12 @@ public/media/
 
 public/robots.txt
 public/sitemap*.xml
+
+---
+---
+
+# Already checked files
+tsconfig.json
+tsconfig.tsbuildinfo
+tailwind.config.mjs
+README.md
